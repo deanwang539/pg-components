@@ -51,8 +51,8 @@ var app = {
 };
 
 function toButton(){
-  var duration = 0.5, // animation time in seconds
-      direction = "right"; // animation direction - left | right | top | bottom
-
-  nativetransitions.flip(duration, direction, function(){window.location.href="states/buttons.html"; });
+  window.plugins.nativepagetransitions.slide({
+      // the defaults for direction, duration, etc are all fine
+      "href" : "../states/buttons.html"
+  });
 }
