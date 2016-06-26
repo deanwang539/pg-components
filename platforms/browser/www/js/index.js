@@ -53,6 +53,6 @@ var app = {
 function toButton(){
   window.plugins.nativepagetransitions.slide({
       // the defaults for direction, duration, etc are all fine
-      "href" : "../states/buttons.html"
+      "href" : "states/buttons.html"
   });
 }

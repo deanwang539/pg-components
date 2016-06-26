@@ -174,13 +174,5 @@
         },
         "is_top_level": true,
         "variables": {}
-    },
-    "cordova-plugin-native-transitions": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-native-transitions@~0.2.3"
-        },
-        "is_top_level": true,
-        "variables": {}
     }
 }

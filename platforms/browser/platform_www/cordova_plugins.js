@@ -610,14 +610,6 @@ module.exports = [
         "clobbers": [
             "window.plugins.nativepagetransitions"
         ]
-    },
-    {
-        "file": "plugins/cordova-plugin-native-transitions/www/nativetransitions.js",
-        "id": "cordova-plugin-native-transitions.NativeTransitions",
-        "pluginId": "cordova-plugin-native-transitions",
-        "clobbers": [
-            "nativetransitions"
-        ]
     }
 ];
 module.exports.metadata = 
@@ -644,8 +636,7 @@ module.exports.metadata =
     "cordova-plugin-statusbar": "2.1.3",
     "cordova-plugin-vibration": "2.1.1",
     "cordova-plugin-whitelist": "1.2.2",
-    "com.telerik.plugins.nativepagetransitions": "0.6.5",
-    "cordova-plugin-native-transitions": "0.2.3"
+    "com.telerik.plugins.nativepagetransitions": "0.6.5"
 }
 // BOTTOM OF METADATA
 });
