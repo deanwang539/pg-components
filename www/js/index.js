@@ -44,7 +44,15 @@ var app = {
         // receivedElement.setAttribute('style', 'display:block;');
 
         var parentElement = document.getElementById(id);
+        document.getElementById("toButton").addEventListener("click", toButton);
 
         console.log('Received Event: ' + id);
     }
 };
+
+function toButton(){
+  var duration = 0.5, // animation time in seconds
+      direction = "right"; // animation direction - left | right | top | bottom
+
+  nativetransitions.flip(duration, direction, function(){window.location.href="states/buttons.html"; });
+}
