@@ -86,7 +86,7 @@ body {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   display: inline-block;
-  margin: 10px auto 10px auto;
+  margin: 0
 }
 
 .btn:hover {
@@ -152,4 +152,53 @@ body {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
+}
+
+.content{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.content p{
+  font-size: 15px !important;
+  font-weight: bold;
+  color: #330000;
+}
+
+.default-content{
+  display: inline-block;
+  margin-right: 30px;
+  padding: 0;
+}
+
+.custom-content{
+  display: inline-block;
+  margin-left: 30px;
+  padding: 0;
+}
+
+.custom-style{
+  margin-top: 60px;
+  padding: 0 10px 0 0;
+}
+
+.header{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer{
+  position: absolute;
+  bottom: 70px;
+  width: 100%
+}
+
+.footer a.left{
+  position: absolute;
+  left: 25%;
+}
+
+.footer a.right{
+  position: absolute;
+  right: 25%;
 }

@@ -7,15 +7,53 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
     <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
     <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/button.css" />
     <title>AP Components</title>
 </head>
 <body>
-    <div class="app">
-        <h1>PhoneGap</h1>
-        <div id="deviceready" class="blink">
-            <p class="event listening">Connecting to Device</p>
-            <p class="event received">Device is Ready</p>
+    <div id="deviceready">
+      <h1 class="header">Button</h1>
+      <div class="content">
+        <div class="default-content">
+          <p>Default Style</p>
+          <a class="btn" href="">Default</a>
         </div>
+        <div class="custom-content">
+          <p>Custom Style</p>
+          <a id="customButton" class="btn" href="">Custom</a>
+        </div>
+        <div class="custom-style">
+          <p>Custom Style</p>
+          <div class="datagrid">
+            <table style="width:100%">
+              <tbody>
+                <tr>
+                  <td class="table-title">Color:</td>
+                  <td id="greenDiv" class="greenDiv" onclick="changeColor('#449d44')"></td>
+                  <td id="blueDiv" class="blueDiv" onclick="changeColor('#3498db')"></td>
+                  <td id="orangeDiv" class="orangeDiv" onclick="changeColor('#f0ad4e')"></td>
+                </tr>
+                <tr>
+                  <td class="table-title">Size:</td>
+                  <td><a id="sBtn" class="s-btn" onclick="changeSize('10px')">Small</a></td>
+                  <td><a id="dBtn" class="d-btn" onclick="changeSize('20px')">Medium</a></td>
+                  <td><a id="lBtn" class="l-btn" onclick="changeSize('30px')">Large</a></td>
+                </tr>
+                <tr>
+                  <td class="table-title">Shape:</td>
+                  <td><a id="circleShape" class="circle" onclick="changeShapeCircle('50%')">Circle</a></td>
+                  <td><a id="roundShape" class="round" onclick="changeShape('28px')">Round</a></td>
+                  <td><a id="squareShape" class="square" onclick="changeShape('0')">Square</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <a class="left btn" href="../index.html">Back</a>
+        <a class="right btn" href="sliders.html">Next</a>
+      </div>
     </div>
     <script type="text/javascript" src="../cordova.js"></script>
     <script type="text/javascript" src="../js/buttons.js"></script>

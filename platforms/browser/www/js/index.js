@@ -44,8 +44,8 @@ var app = {
         // receivedElement.setAttribute('style', 'display:block;');
 
         var parentElement = document.getElementById(id);
-        document.getElementById("toButton").addEventListener("click", toButton);
-
+        // save it since the plugin only works there
+        // document.getElementById("toButton").addEventListener("click", toButton);
         console.log('Received Event: ' + id);
     }
 };

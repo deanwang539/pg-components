@@ -215,6 +215,9 @@
         },
         "com.telerik.plugins.nativepagetransitions": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "cordova-plugin-native-transitions": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },
     "dependent_plugins": {},
@@ -678,6 +681,13 @@
             "clobbers": [
                 "window.plugins.nativepagetransitions"
             ]
+        },
+        {
+            "file": "plugins/cordova-plugin-native-transitions/www/nativetransitions.js",
+            "id": "cordova-plugin-native-transitions.NativeTransitions",
+            "clobbers": [
+                "nativetransitions"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -702,6 +712,7 @@
         "cordova-plugin-statusbar": "2.1.3",
         "cordova-plugin-vibration": "2.1.1",
         "cordova-plugin-whitelist": "1.2.2",
-        "com.telerik.plugins.nativepagetransitions": "0.6.5"
+        "com.telerik.plugins.nativepagetransitions": "0.6.5",
+        "cordova-plugin-native-transitions": "0.2.3"
     }
 }
