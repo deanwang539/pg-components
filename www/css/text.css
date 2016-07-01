@@ -1,0 +1,20 @@
+.textOptions{
+  margin: 0;
+  padding: 0;
+}
+
+.textSection{
+  margin-top: 30px;
+}
+
+.sText, .sText p{
+  font-size: 8px;
+}
+
+.mText, .mText p{
+  font-size: 12px;
+}
+
+.lText, .lText p{
+  font-size: 18px;
+}

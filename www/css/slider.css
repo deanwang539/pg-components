@@ -1,0 +1,133 @@
+.default-slider-content{
+  margin: 0;
+  padding: 0;
+}
+
+.custom-slider-content{
+  margin: 50px 0 0 0;
+  padding: 0;
+}
+
+.custom-slider-style{
+  margin: 50px 0 0 0;
+  padding: 0;
+}
+
+.rangeSlider {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.datagrid table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: left;
+    width: 100%;
+}
+.datagrid {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.datagrid table{
+  padding: 10px;
+}
+
+.datagrid table td{
+    padding: 20px 10px 20px 10px;
+}
+
+.datagrid table tbody td {
+    font-size: 13px;
+    font-weight: normal;
+}
+.datagrid table tbody td:first-child {
+    border-left: none;
+}
+.datagrid table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.table-title{
+  width: 18%;
+}
+
+.blueDiv{
+  background-color: #3498db;
+  width:15%;
+}
+
+.greenDiv{
+  background-color: #449d44;
+  width:15%;
+}
+
+.orangeDiv{
+  background-color: #f0ad4e;
+  width:15%;
+}
+
+.transparentDiv{
+  background-color: #7f8c8d;
+  width:15%;
+}
+
+.s-btn {
+  background: transparent;
+  border-radius: 28px;
+  border:1px solid black;
+  color: black;
+  font-size: 12px;
+  padding: 7px 7px 7px 7px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0
+}
+
+.d-btn {
+  background: transparent;
+  border-radius: 28px;
+  border:1px solid black;
+  color: black;
+  font-size: 15px;
+  padding: 9px 9px 9px 9px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0
+}
+
+.l-btn {
+  background: transparent;
+  border-radius: 28px;
+  border:1px solid black;
+  color: black;
+  font-size: 18px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.round {
+  background: transparent;
+  border-radius: 28px;
+  border:1px solid black;
+  color: black;
+  font-size: 12px;
+  padding: 7px 7px 7px 7px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0
+}
+
+.square {
+  background: transparent;
+  border-radius: 0;
+  border:1px solid black;
+  color: black;
+  font-size: 12px;
+  padding: 7px 7px 7px 7px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0
+}
